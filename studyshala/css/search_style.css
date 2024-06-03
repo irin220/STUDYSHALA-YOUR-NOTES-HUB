@@ -1,0 +1,63 @@
+form.example {
+  position: sticky;
+  z-index: 1050;
+  display: inline;
+}
+
+form.example input[type=text] {
+  padding: 5px;
+  font-size: 15px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 5px;
+  background: #FE5D37;
+  color: white;
+  font-size: 15px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  display: inline;
+  position: sticky;
+  z-index: 1050;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+
+.autocomplete {
+  position: absolute;
+  top: 100%;
+  z-index: 2000;
+  background-color: #fff;
+  max-height: 200px;
+  overflow-y: auto;
+  padding: 0rem;
+  width: 100%;
+}
+
+.autocomplete li {
+  list-style-type: none;
+  cursor: pointer;
+  padding: 0px;
+  border-radius: 0;
+}
+
+.autocomplete li:hover {
+  background-color: #f9f9f9;
+}
+
+
+
+
+.search {
+  padding-left: 0rem;
+}
